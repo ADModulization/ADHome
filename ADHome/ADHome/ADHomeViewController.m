@@ -33,7 +33,11 @@
 
 - (void)onClickButton
 {
-    [[ADMediator shareInstance] adm_mineChangeBackgroundColor:[UIColor colorWithRed:(random() % 255) / 255.0 green:(random() % 255) / 255.0 blue:(random() % 255) / 255.0 alpha:1]];
+    NSString *result = [[ADMediator shareInstance] adm_mineChangeBackgroundColor:[UIColor colorWithRed:(random() % 255) / 255.0 green:(random() % 255) / 255.0 blue:(random() % 255) / 255.0 alpha:1]];
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"^_^" message:result preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"好的" style:UIAlertActionStyleCancel handler:nil];
+    [alert addAction:okAction];
+    [self presentViewController:alert animated:YES completion:nil];
 }
 
 #pragma mark - super
