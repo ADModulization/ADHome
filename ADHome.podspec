@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ADHome"
-  s.version      = "3"
+  s.version      = "4"
   s.summary      = "ADHome."
   s.description  = <<-DESC
                     this is ADHome
