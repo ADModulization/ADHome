@@ -7,6 +7,6 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'ADHome' do
   
   pod 'ADNetworking'
-  pod 'ADMediatorCategory'
+  pod 'ADMediatorCategory', '5'
  
 end

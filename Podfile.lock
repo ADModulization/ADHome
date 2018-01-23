@@ -1,6 +1,6 @@
 PODS:
   - ADMediator (2)
-  - ADMediatorCategory (4):
+  - ADMediatorCategory (5):
     - ADMediator
   - ADNetworking (3):
     - AFNetworking
@@ -21,15 +21,15 @@ PODS:
     - AFNetworking/NSURLSession
 
 DEPENDENCIES:
-  - ADMediatorCategory
+  - ADMediatorCategory (= 5)
   - ADNetworking
 
 SPEC CHECKSUMS:
   ADMediator: 022e97e3d922a96e285666449487899e6df1ebc3
-  ADMediatorCategory: 664eeaebd21bf0bb2677ec8d4746eca5a2cbdead
+  ADMediatorCategory: e866d11fee8c533ac30dde1b9051134f695519b9
   ADNetworking: 76f7058e86a86b209b322367f29a3212cba043fd
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
 
-PODFILE CHECKSUM: db57b9ef23721e6da321acbd0a6c0657ff4ac8fe
+PODFILE CHECKSUM: 00e4e1bb469979997f293e7d7cc9184b6d298b3a
 
 COCOAPODS: 1.4.0.rc.1
