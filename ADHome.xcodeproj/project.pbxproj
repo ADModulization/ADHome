@@ -7,26 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A13995212016D35D00447313 /* ADHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13995202016D35D00447313 /* ADHomeViewController.m */; };
+		A13995242016D39F00447313 /* ADHomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13995232016D39F00447313 /* ADHomeDetailViewController.m */; };
 		A1C8F8022011E08A00AD9643 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C8F8012011E08A00AD9643 /* AppDelegate.m */; };
-		A1C8F8052011E08A00AD9643 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C8F8042011E08A00AD9643 /* ViewController.m */; };
-		A1C8F8082011E08A00AD9643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C8F8062011E08A00AD9643 /* Main.storyboard */; };
 		A1C8F80A2011E08A00AD9643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C8F8092011E08A00AD9643 /* Assets.xcassets */; };
 		A1C8F80D2011E08A00AD9643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C8F80B2011E08A00AD9643 /* LaunchScreen.storyboard */; };
 		A1C8F8102011E08A00AD9643 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C8F80F2011E08A00AD9643 /* main.m */; };
+		D2A22F4F230EA459275E85E6 /* libPods-ADHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C115338F61E77025267A0B1 /* libPods-ADHome.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C115338F61E77025267A0B1 /* libPods-ADHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ADHome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E3B753303237A30A0C46518 /* Pods-ADHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADHome/Pods-ADHome.release.xcconfig"; sourceTree = "<group>"; };
+		A139951F2016D35D00447313 /* ADHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADHomeViewController.h; sourceTree = "<group>"; };
+		A13995202016D35D00447313 /* ADHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADHomeViewController.m; sourceTree = "<group>"; };
+		A13995222016D39F00447313 /* ADHomeDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADHomeDetailViewController.h; sourceTree = "<group>"; };
+		A13995232016D39F00447313 /* ADHomeDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADHomeDetailViewController.m; sourceTree = "<group>"; };
 		A1C8F7FD2011E08A00AD9643 /* ADHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C8F8002011E08A00AD9643 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1C8F8012011E08A00AD9643 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A1C8F8032011E08A00AD9643 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A1C8F8042011E08A00AD9643 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A1C8F8072011E08A00AD9643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1C8F8092011E08A00AD9643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1C8F80C2011E08A00AD9643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1C8F80E2011E08A00AD9643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1C8F80F2011E08A00AD9643 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A1C8F8A12011E9B500AD9643 /* ADHome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADHome.h; sourceTree = "<group>"; };
+		F6A77061CFE510DCF137FEB3 /* Pods-ADHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADHome/Pods-ADHome.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,17 +38,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2A22F4F230EA459275E85E6 /* libPods-ADHome.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6512E2442551912EB2C91FE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C115338F61E77025267A0B1 /* libPods-ADHome.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74708719E351909F8BB24F32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6A77061CFE510DCF137FEB3 /* Pods-ADHome.debug.xcconfig */,
+				3E3B753303237A30A0C46518 /* Pods-ADHome.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A1C8F7F42011E08A00AD9643 = {
 			isa = PBXGroup;
 			children = (
 				A1C8F7FF2011E08A00AD9643 /* ADHome */,
 				A1C8F7FE2011E08A00AD9643 /* Products */,
+				74708719E351909F8BB24F32 /* Pods */,
+				6512E2442551912EB2C91FE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,9 +86,6 @@
 				A1C8F8A02011E9AD00AD9643 /* ADHome */,
 				A1C8F8002011E08A00AD9643 /* AppDelegate.h */,
 				A1C8F8012011E08A00AD9643 /* AppDelegate.m */,
-				A1C8F8032011E08A00AD9643 /* ViewController.h */,
-				A1C8F8042011E08A00AD9643 /* ViewController.m */,
-				A1C8F8062011E08A00AD9643 /* Main.storyboard */,
 				A1C8F8092011E08A00AD9643 /* Assets.xcassets */,
 				A1C8F80B2011E08A00AD9643 /* LaunchScreen.storyboard */,
 				A1C8F80E2011E08A00AD9643 /* Info.plist */,
@@ -76,7 +97,10 @@
 		A1C8F8A02011E9AD00AD9643 /* ADHome */ = {
 			isa = PBXGroup;
 			children = (
-				A1C8F8A12011E9B500AD9643 /* ADHome.h */,
+				A139951F2016D35D00447313 /* ADHomeViewController.h */,
+				A13995202016D35D00447313 /* ADHomeViewController.m */,
+				A13995222016D39F00447313 /* ADHomeDetailViewController.h */,
+				A13995232016D39F00447313 /* ADHomeDetailViewController.m */,
 			);
 			path = ADHome;
 			sourceTree = "<group>";
@@ -88,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1C8F8132011E08A00AD9643 /* Build configuration list for PBXNativeTarget "ADHome" */;
 			buildPhases = (
+				BE9779F1FF834B336AD9F078 /* [CP] Check Pods Manifest.lock */,
 				A1C8F7F92011E08A00AD9643 /* Sources */,
 				A1C8F7FA2011E08A00AD9643 /* Frameworks */,
 				A1C8F7FB2011E08A00AD9643 /* Resources */,
+				C67CCFBEA9F7729EE6AA470F /* [CP] Embed Pods Frameworks */,
+				0D78D0C110920F66EC35B8AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,19 +168,70 @@
 			files = (
 				A1C8F80D2011E08A00AD9643 /* LaunchScreen.storyboard in Resources */,
 				A1C8F80A2011E08A00AD9643 /* Assets.xcassets in Resources */,
-				A1C8F8082011E08A00AD9643 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D78D0C110920F66EC35B8AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADHome/Pods-ADHome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE9779F1FF834B336AD9F078 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ADHome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C67CCFBEA9F7729EE6AA470F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADHome/Pods-ADHome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A1C8F7F92011E08A00AD9643 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1C8F8052011E08A00AD9643 /* ViewController.m in Sources */,
 				A1C8F8102011E08A00AD9643 /* main.m in Sources */,
+				A13995212016D35D00447313 /* ADHomeViewController.m in Sources */,
+				A13995242016D39F00447313 /* ADHomeDetailViewController.m in Sources */,
 				A1C8F8022011E08A00AD9643 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,14 +239,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A1C8F8062011E08A00AD9643 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1C8F8072011E08A00AD9643 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A1C8F80B2011E08A00AD9643 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,6 +356,7 @@
 		};
 		A1C8F8142011E08A00AD9643 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6A77061CFE510DCF137FEB3 /* Pods-ADHome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +371,7 @@
 		};
 		A1C8F8152011E08A00AD9643 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E3B753303237A30A0C46518 /* Pods-ADHome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
