@@ -1,0 +1,1 @@
+../../../ADMediatorCategory/ADMediatorCategory/ADMediatorCategory/ADMediator+MineModule.h

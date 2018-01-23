@@ -1,8 +1,8 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ADNetworking" "${PODS_ROOT}/Headers/Public/AFNetworking"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ADNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/ADNetworking" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"ADNetworking" -l"AFNetworking" -framework "CoreGraphics" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ADMediator" "${PODS_ROOT}/Headers/Public/ADMediatorCategory" "${PODS_ROOT}/Headers/Public/ADNetworking" "${PODS_ROOT}/Headers/Public/AFNetworking"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ADMediator" "${PODS_CONFIGURATION_BUILD_DIR}/ADMediatorCategory" "${PODS_CONFIGURATION_BUILD_DIR}/ADNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/ADMediator" -isystem "${PODS_ROOT}/Headers/Public/ADMediatorCategory" -isystem "${PODS_ROOT}/Headers/Public/ADNetworking" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"ADMediator" -l"ADMediatorCategory" -l"ADNetworking" -l"AFNetworking" -framework "CoreGraphics" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
